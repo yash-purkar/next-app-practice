@@ -1,0 +1,23 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  height: 5rem;
+}
+
+.navItems {
+  display: flex;
+  gap: 1rem;
+}
+
+.navItem {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  color: red;
+}

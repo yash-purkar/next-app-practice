@@ -1,0 +1,11 @@
+.moviesContainer {
+  width: 800px;
+  margin: auto;
+}
+
+.moviesInnerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 2rem;
+}
